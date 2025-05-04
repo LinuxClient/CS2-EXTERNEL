@@ -1,0 +1,80 @@
+🛰 PROJECT ATLAS – CS2 Cheat Client
+PROJECT ATLAS is a high-performance, modular cheat client for Counter-Strike 2 (CS2), developed for educational, reverse engineering, and anti-cheat research purposes. This project demonstrates advanced memory manipulation, real-time game data parsing, and stealth injection techniques within the context of a modern multiplayer FPS title.
+
+⚠️ Disclaimer: PROJECT ATLAS is provided strictly for educational use. The use of cheats in online games violates the Terms of Service of most platforms and can lead to bans. The developers are not responsible for any misuse of this project.
+If you're here to learn, you're in the right place. If you're here to ruin games, you're not.
+
+📌 Key Features
+🎯 Aimbot Module
+Customizable FOV, smoothing, bone targeting (head, chest, etc.)
+
+Visibility checks and aim prediction
+
+Configurable hotkey support
+
+⚡ Triggerbot
+Fire-on-crosshair mechanism with optional delay
+
+Toggleable via hotkey
+
+Weapon-specific activation support
+
+🧠 ESP & Wallhack
+2D/3D Boxes, health bars, player names
+
+Glow system (external/internal depending on mode)
+
+Configurable team visibility and transparency levels
+
+👁 Radar & Awareness Tools
+External radar with positional tracking
+
+Enemy line-of-sight visualization
+
+Footstep visualization (experimental)
+
+🔐 Anti-Detection & Security
+Hardware-based spoofing options (optional module)
+
+Obfuscated memory patterns and function calls
+
+Anti-screenshot and anti-recording overlays
+
+Optional kernel-mode driver (WIP)
+
+🛠 Config System
+Fully customizable atlas.cfg file
+
+Real-time config reloading without restarting
+
+Multi-profile support (e.g., legit, rage, testing)
+
+📚 Educational Tooling
+Annotated source code for learning purposes
+
+Logging tools to monitor memory reads/writes
+
+Game SDK reference definitions included
+
+🏗 Architecture & Design
+PROJECT ATLAS is built using:
+
+C++ for core injection and memory manipulation
+
+DirectX/OpenGL for rendering overlays
+
+ImGui for in-game and external GUI (toggleable)
+
+Optional Rust module for high-performance memory scanning (planned)
+
+Clean separation between logic, rendering, and interface
+
+The design focuses on modularity — every major component (aimbot, ESP, config, injection) is isolated, enabling easy debugging, testing, and replacement.
+
+🧪 Compatibility
+✅ Supports the latest CS2 builds
+
+🖥️ Tested on Windows 10 and Windows 11 (x64)
+
+🛡️ Works with standard VAC-protected servers (VAC bypass is not included)
+
